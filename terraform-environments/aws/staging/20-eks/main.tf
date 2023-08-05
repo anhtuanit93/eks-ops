@@ -99,7 +99,7 @@ module "eks" {
   node_groups = {
     ng1 = {
       version          = "1.26"
-      disk_size        = 20
+      disk_size        = 30
       desired_capacity = 3
       max_capacity     = 4
       min_capacity     = 1
